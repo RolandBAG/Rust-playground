@@ -29,6 +29,11 @@ fn main() {
     let mut s = String::from("Built by Dr Light");
     let fw = first_word(&s);
     println!("{}", fw);
+//    fw.clear(); // Empties the string, making it equal to ""
+
+    let built = &s[0..4];
+    let light = &s[12..];
+
 
 }
 
@@ -50,13 +55,16 @@ fn change(some_string: &mut String){
     some_string.push_str(" world!");
 }
 
-fn first_word(s: &String) -> usize {
+fn first_word(s: &String) -> &str {
     let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
+
+//        println!("Testing: {i}\n Item: {item}");
+
         if item == b' ' {
-            return i;
+            return &s[0..i];
         }
     }
-    s.len();
+    &s[..]
 }
