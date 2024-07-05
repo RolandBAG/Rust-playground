@@ -1,4 +1,0 @@
-https://doc.rust-lang.org/book/ch15-03-drop.html
-Rust Forum Pass: RioOLindo!.41
-
-https://users.rust-lang.org/t/documentation-problem-expected-enum-option-found-enum-std-option/94567
