@@ -1,0 +1,1 @@
+/mnt/c/Users/James\ D/Documents/src/Rust-playground/object_oriented_programming/target/debug/libobject_oriented_programming.rlib: /mnt/c/Users/James\ D/Documents/src/Rust-playground/object_oriented_programming/src/lib.rs
