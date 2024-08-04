@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"multithreaded_web_server":[["impl Freeze for <a class=\"struct\" href=\"multithreaded_web_server/struct.ThreadPool.html\" title=\"struct multithreaded_web_server::ThreadPool\">ThreadPool</a>",1,["multithreaded_web_server::ThreadPool"]]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
